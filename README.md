@@ -1,7 +1,10 @@
-# Atividades_JavaScript_Html
+# Atividades de JavaScript e HTML
 
 
-<h1 align="center"> Atividades de JavaScript e Htmal </h1>
+## Descrição do Projeto
+<p align="center">Neste Repositório vão estar algumas atividades feitas em JavaScript e HTML, o objetivo desses exercicios são para reforçar instruções basicas do proprio JavaScript.</p>
+
+
 
 ![download](https://user-images.githubusercontent.com/90529641/228034545-25f5edb4-a294-4b22-af01-a06ff2dea873.png)
 
