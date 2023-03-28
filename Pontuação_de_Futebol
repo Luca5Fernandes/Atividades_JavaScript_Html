@@ -1,0 +1,41 @@
+<meta charset="UTF-8">
+
+<script>
+	
+	function pulaLinha() {
+
+		document.write("<br><br>");	
+	}
+
+	function vizualizar(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var vitorias = parseInt(prompt("O número de Vitórias do Seu Time."));
+
+	var empates = parseInt(prompt("O número de Empates do Seu Time."));
+				
+	var pontos = (vitorias * 3) + empates;
+
+		vizualizar("A Pontuação do seu Time é " + pontos);
+
+	if(pontos > 28) {
+
+		vizualizar("Seu Time tem + Mais pontos que o Ano Passado.");
+	}
+
+	if(pontos < 28) {
+
+		vizualizar("Seu Time tem - Menos pontos que o Ano Passado.");
+	}
+
+	if(pontos == 28) {
+		
+		vizualizar("Seu Time tem a Mesmos Pontos do Ano Passado.")
+	}
+
+		vizualizar("Fim");
+
+</script>
